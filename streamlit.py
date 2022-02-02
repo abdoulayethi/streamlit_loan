@@ -9,7 +9,7 @@ import streamlit.components.v1 as components
 from IPython.display import HTML
 
 test_client= pd.read_pickle("test2_data.pkl")
-data_client = pd.read_csv("test_streamlit_3.csv") #contient target
+data_client = pd.read_csv("test_streamlit_4.csv") #contient target
 list_lime = joblib.load("list_lime.pkl")
 
 
